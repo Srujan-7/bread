@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREAD - MENU</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav">
+        <a href="index.html" class="logo">BREAD</a>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="sider">
+            <a href="cart.html"><i class="fa-solid fa-burger"></i></a>
+            <a href="profile.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </header>
+    <div class="main">
+        <aside class="sidebar">
+            <a onclick="mover(0)">CAKES</a>
+            <a onclick="mover(1)">DESSERTS</a>
+            <a onclick="mover(2)">COOKIES</a>
+            <a onclick="mover(3)">BURGERS</a>
+            <a onclick="mover(4)">PIZZAS</a>
+        </aside>
+        <section class="mainbar"></section>
+        <section class="searchdiv"></section>
+        <div class="orderpage">
+            <div class="heding">
+                <p class="heading"></p>
+                <a href="menu.html"><i class="fa-solid fa-arrow-left back" style="padding: 10px 40px;"></i></a>
+            </div>
+            <div class="orderbox">
+                <section class="details">
+                    <p class="heading">Vanilla Chai Cake - $49.99</p>
+                    <p class="cap">A delightful fusion of warmth and sweetness, Each bite offers a symphony of flavors – cinnamon, cardamom, and nutmeg balanced with the gentle essence of vanilla. Perfectly moist and topped with a creamy chai-infused frosting.</p>
+                    <p class="sub">Choose the ones you want to add</p>
+                    <div class="add">
+                        <div class="var">
+                            <div class="addco">
+                                <img src="images/Cashew.png" alt="">
+                            </div>
+                            <p class="aname">Cashew</p>
+                        </div>
+                        <div class="var">
+                            <div class="addco">
+                                <img src="images/Peanuts.png" alt="">
+                            </div>
+                            <p class="aname">Peanuts</p>
+                        </div>
+                        <div class="var">
+                            <div class="addco">
+                                <img src="images/Almond.png" alt="">
+                            </div>
+                            <p class="aname">Almonds</p>
+                        </div>
+                        <div class="var">
+                            <div class="addco">
+                                <img src="images/Cream.png" alt="">
+                            </div>
+                            <p class="aname">Cream</p>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <p class="sub">30 Mins aways from you home</p>
+                        <img src="images/map.png" alt="">
+                    </div>
+                    <section class="button">
+                        <span class="buy">Buy</span>
+                        <a class="cart">Add To Cart</a>
+                    </section>
+                </section>
+                <section class="image">
+                    <img src="images/VCC5.png" alt="">
+                </section>
+                <div class="pop">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Added to Cart</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="bought">
+        <div>We Will See You At Your Door Steps</div>
+    </div>
+</body>
+<script>
+    window.localStorage.setItem('page',"menu");
+</script>
+<script src="menu.js"></script>
+<script src="addtocart.js"></script>
+</html>

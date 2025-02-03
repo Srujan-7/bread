@@ -1,0 +1,272 @@
+{
+    "cakes": {
+        "vanilla": [
+            {
+                "name": "Vanilla Chai Cake",
+                "cap": "Savor the warmth, love, and sweetness in every vanilla chai bite.",
+                "price": 47,
+                "image": "cv1.png"
+            },
+            {
+                "name": "Vanilla Choco Cake",
+                "cap": "Where rich chocolate meets vanilla bliss — pure love in every slice.",
+                "price": 50,
+                "image": "cv2.png"
+            },
+            {
+                "name": "Vanilla Coffee Cake",
+                "cap": "A perfect blend of vanilla and coffee for every sweet moment.",
+                "price": 12.99,
+                "image": "cv3.png"
+            },
+            {
+                "name": "Vanilla Strawberry Cake",
+                "cap": "Taste the sunshine with every bite of vanilla and strawberry",
+                "price": 19.99,
+                "image": "cv4.png"
+            }
+        ],
+        "chocolate": [
+            {
+                "name": "Choco-Oreo Cake",
+                "cap": "Indulge in creamy chocolate goodness with a delightful Oreo crunch.",
+                "price": 15.99,
+                "image": "cc1.png"
+            },
+            {
+                "name": "Dark Chocolate Truffle Cake",
+                "cap": "Dive into pure dark chocolate decadence in every rich bite.",
+                "price": 60,
+                "image": "cc2.png"
+            },
+            {
+                "name": "Choco Straw Cake",
+                "cap": "Delight in the rich chocolate and fresh strawberry harmony. ",
+                "price": 14.99,
+                "image": "cc3.png"
+            },
+            {
+                "name": "Choco Strawberry Cake",
+                "cap": "A decadent fusion of chocolate and strawberry bliss in every slice.",
+                "price": 14.99,
+                "image": "cc4.png"
+            }
+        ]
+    },
+    "desserts": {
+        "brownies": [
+            {
+                "name": "Fudgy Chocolate Brownie",
+                "cap": "Delight in gooey chocolate perfection that melts your worries away.",
+                "price": 4,
+                "image": "db1.png"
+            },
+            {
+                "name": "Blondie Brownie",
+                "cap": "Buttery bliss packed into every golden, delicious square.",
+                "price": 4.50,
+                "image": "db2.png"
+            },
+            {
+                "name": "Caramel Swirl Brownie",
+                "cap": "Rich chocolate meets luscious caramel for an unforgettable treat.",
+                "price": 5,
+                "image": "db3.png"
+            },
+            {
+                "name": "Nutty Delight Brownie",
+                "cap": "A perfect crunch of nuts wrapped in chocolatey goodness.",
+                "price": 6,
+                "image": "db4.png"
+            }
+        ],
+        "ice creams": [
+            {
+                "name": "Vanilla Bean Ice Cream",
+                "cap": "Classic vanilla, pure comfort in every creamy, dreamy scoop.",
+                "price": 3,
+                "image": "di1.png"
+            },
+            {
+                "name": "Chocolate Chip Mint Ice Cream",
+                "cap": "Cool mint and chocolate chips—a refreshing delight every time.",
+                "price": 4,
+                "image": "di2.png"
+            },
+            {
+                "name": "Strawberry Swirl Ice Cream",
+                "cap": "Fresh strawberry swirls for a fruity, sweet indulgence.",
+                "price": 3.50,
+                "image": "di3.png"
+            },
+            {
+                "name": "Salted Caramel Ice Cream",
+                "cap": "Salty, sweet, and irresistibly creamy—a perfect treat.",
+                "price": 5,
+                "image": "di4.png"
+            }
+        ]
+    },
+    "cookies": {
+        "soft": [
+            {
+                "name": "Chewy Chocolate Chip Cookie",
+                "cap": "Soft and warm with melty chocolate chips in every bite.",
+                "price": 2.50,
+                "image": "cs1.png"
+            },
+            {
+                "name": "Peanut Butter Soft Cookie",
+                "cap": "A smooth, buttery treat for peanut butter lovers.",
+                "price": 3,
+                "image": "cs2.png"
+            },
+            {
+                "name": "Oatmeal Raisin Soft Cookie",
+                "cap": "Heartwarming oats and sweet raisins in a delightful cookie.",
+                "price": 2.75,
+                "image": "cs3.png"
+            },
+            {
+                "name": "Red Velvet Soft Cookie",
+                "cap": "Velvety soft with hints of cocoa and a cream cheese drizzle.",
+                "price": 3.50,
+                "image": "cs4.png"
+            }
+        ],
+        "crunchy": [
+            {
+                "name": "Classic Butter Cookie",
+                "cap": "Crunchy, golden, and melt-in-your-mouth goodness.",
+                "price": 2,
+                "image": "cy1.png"
+            },
+            {
+                "name": "Almond Biscotti",
+                "cap": "Crunchy perfection with toasted almond goodness in every bite.",
+                "price": 4,
+                "image": "cy2.png"
+            },
+            {
+                "name": "Choco Crunch Cookie",
+                "cap": "A crispy, chocolate lover's dream come true.",
+                "price": 3,
+                "image": "cy3.png"
+            },
+            {
+                "name": "Coconut Delight Cookie",
+                "cap": "A tropical, crispy cookie for coconut enthusiasts.",
+                "price": 3.50,
+                "image": "cy4.png"
+            }
+        ]
+    },
+    "burgers": {
+        "veg": [
+            {
+                "name": "Classic Veggie Burger",
+                "cap": "Packed with fresh veggies and flavors that scream perfection.",
+                "price": 8.50,
+                "image": "bv1.png"
+            },
+            {
+                "name": "Spicy Bean Burger",
+                "cap": "A zesty, protein-packed burger with a fiery kick.",
+                "price": 9,
+                "image": "bv2.png"
+            },
+            {
+                "name": "Grilled Mushroom Burger",
+                "cap": "Juicy mushrooms grilled to perfection for a savory delight.",
+                "price": 9.50,
+                "image": "bv3.png"
+            },
+            {
+                "name": "Paneer Tikka Burger",
+                "cap": "Smoky, spiced paneer in a perfectly grilled burger bun.",
+                "price": 10,
+                "image": "bv4.png"
+            }
+        ],
+        "non-veg": [
+            {
+                "name": "Classic Beef Burger",
+                "cap": "Juicy beef patty grilled to perfection with classic toppings.",
+                "price": 12,
+                "image": "bnv1.png"
+            },
+            {
+                "name": "Grilled Chicken Burger",
+                "cap": "Tender grilled chicken breast with smoky, savory flavors.",
+                "price": 11,
+                "image": "bnv2.png"
+            },
+            {
+                "name": "Bacon Cheeseburger",
+                "cap": "Crispy bacon meets melty cheese for the ultimate burger bliss.",
+                "price": 13,
+                "image": "bnv3.png"
+            },
+            {
+                "name": "Spicy Fried Chicken Burger",
+                "cap": "Crispy fried chicken with a punch of bold spices.",
+                "price": 12.50,
+                "image": "bnv4.png"
+            }
+        ]
+    },
+    "pizzas": {
+        "veg": [
+            {
+                "name": "Margherita Pizza",
+                "cap": "Simple, fresh, and full of cheesy perfection.",
+                "price": 9.99,
+                "image": "pv1.png"
+            },
+            {
+                "name": "Veggie Delight Pizza",
+                "cap": "Loaded with fresh vegetables and bursting with flavor.",
+                "price": 10.50,
+                "image": "pv2.png"
+            },
+            {
+                "name": "Paneer Tikka Pizza",
+                "cap": "A spicy Indian twist with delicious paneer and masala toppings.",
+                "price": 12,
+                "image": "pv3.png"
+            },
+            {
+                "name": "Spinach & Corn Pizza",
+                "cap": "Healthy greens meet cheesy bliss in every bite.",
+                "price": 11.25,
+                "image": "pv4.png"
+            }
+        ],
+        "non-veg": [
+            {
+                "name": "Pepperoni Pizza",
+                "cap": "Spicy, crispy pepperoni on a bed of cheesy goodness.",
+                "price": 13,
+                "image": "pnv1.png"
+            },
+            {
+                "name": "BBQ Chicken Pizza",
+                "cap": "Sweet and tangy BBQ sauce with tender chicken toppings.",
+                "price": 14,
+                "image": "pnv2.png"
+            },
+            {
+                "name": "Meat Lovers Pizza",
+                "cap": "A hearty combination of pepperoni, sausage, and ham.",
+                "price": 15,
+                "image": "pnv3.png"
+            },
+            {
+                "name": "Chicken Tandoori Pizza",
+                "cap": "A spicy twist with marinated chicken tandoori and cheesy delight.",
+                "price": 14.50,
+                "image": "pnv4.png"
+            }
+        ]
+    }
+}

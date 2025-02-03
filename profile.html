@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="profile.css">
+    <title>profile</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav">
+        <a href="index.html" class="logo">BREAD</a>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="sider">
+            <a href="cart.html"><i class="fa-solid fa-burger"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="side-bar">
+            <div onclick="dis(0)">Profile</div>
+            <div onclick="dis(1)">Security</div>
+            <div onclick="dis(2)">Privacy & Polilcy</div>
+            <div onclick="dis(3)">Terms & Conditions</div>
+            <div onclick="dis(4)">help Center</div>
+        </div>
+        <div class="main-bar">
+            <div id="section-0" class="content">
+                <h2>Profile</h2>
+                <form id="profile-form">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="address">Delivery Address:</label>
+                    <textarea id="address" name="address" required></textarea>
+                    
+                    <button type="submit" onclick="saveUserData(event)">Save Changes</button>
+                </form>
+            </div>
+            
+            
+            <div id="section-1" class="content">
+                <h2>Security</h2>
+                <p>We take security seriously and implement the highest standards to protect your account.</p>
+                
+                <h3>How We Secure Your Account:</h3>
+                <ul>
+                    <li><strong>Encrypted Passwords:</strong> Your password is securely encrypted and never stored in plain text.</li>
+                    <li><strong>SSL Encryption:</strong> Our website uses SSL encryption to protect your personal and payment data.</li>
+                    <li><strong>Secure Payment Gateway:</strong> Transactions are processed through trusted payment providers to prevent fraud.</li>
+                    <li><strong>Two-Factor Authentication (2FA):</strong> You can enable 2FA for additional security.</li>
+                    <li><strong>Suspicious Activity Alerts:</strong> We monitor login attempts and transactions to detect any unusual behavior.</li>
+                </ul>
+            
+                <h3>Your Role in Security:</h3>
+                <ul>
+                    <li>Use a strong and unique password for your account.</li>
+                    <li>Enable Two-Factor Authentication (2FA) for extra protection.</li>
+                    <li>Never share your password or login details with anyone.</li>
+                    <li>Check for the secure padlock (🔒) symbol in the browser before entering sensitive data.</li>
+                    <li>Beware of phishing emails pretending to be from us. We will never ask for your password via email.</li>
+                </ul>
+            </div>
+            <div id="section-2" class="content">
+                <h2>Privacy & Policy</h2>
+                <p>Your privacy is important to us. We follow strict guidelines to protect your personal information.</p>
+            
+                <h3>Information We Collect:</h3>
+                <ul>
+                    <li>Personal details (name, email, phone number, delivery address).</li>
+                    <li>Order history and preferences to improve your shopping experience.</li>
+                    <li>Payment details (processed securely through third-party payment gateways).</li>
+                    <li>Website usage data to enhance performance and security.</li>
+                </ul>
+            
+                <h3>How We Use Your Data:</h3>
+                <ul>
+                    <li>To process and deliver your orders efficiently.</li>
+                    <li>To personalize your shopping experience with recommendations.</li>
+                    <li>To send important updates about your account and orders.</li>
+                    <li>To improve our website and prevent fraudulent activities.</li>
+                </ul>
+            
+                <h3>Data Protection:</h3>
+                <ul>
+                    <li>We do not sell or share your personal information with third parties.</li>
+                    <li>All transactions and sensitive data are encrypted for maximum security.</li>
+                    <li>You can request data deletion or account removal at any time.</li>
+                </ul>
+            
+            </div>
+            <div id="section-3" class="content">
+                <h2>Terms & Conditions</h2>
+                <p>By using our website, you agree to follow these terms:</p>
+            
+                <h3>Account Usage:</h3>
+                <ul>
+                    <li>Users must provide accurate and up-to-date information.</li>
+                    <li>Each account is for individual use only; sharing login details is prohibited.</li>
+                    <li>We reserve the right to suspend or terminate accounts for fraudulent activities.</li>
+                </ul>
+            
+                <h3>Orders & Payments:</h3>
+                <ul>
+                    <li>All purchases are subject to availability.</li>
+                    <li>Payments must be completed before orders are processed.</li>
+                    <li>Refunds and cancellations are subject to our .</li>
+                </ul>
+            
+                <h3>Website Usage:</h3>
+                <ul>
+                    <li>Unauthorized access or hacking attempts will lead to legal action.</li>
+                    <li>Users must not upload harmful or illegal content.</li>
+                    <li>Content on this website cannot be copied or used without permission.</li>
+                </ul>
+            
+            </div>
+            <div id="section-4" class="content">
+                <h2>Help Center</h2>
+                <p>Need assistance? We’re here to help!</p>
+            
+                <h3>Frequently Asked Questions (FAQs):</h3>
+                <ul>
+                    <li>How do I track my order?</li>
+                    <li>What payment methods do you accept?</li>
+                    <li>How can I reset my password?</li>
+                    <li>Do you offer refunds or exchanges?</li>
+                </ul>
+            
+                <h3>Contact Support:</h3>
+                <p>If you need further help, feel free to reach out to us:</p>
+                <ul>
+                    <li>Email: <a href="mailto:support@bread.com">support@bread.com</a></li>
+                    <li>Phone: +91 9966996699</li>
+                    <li>Live Chat: Available from 9 AM - 6 PM (Mon-Fri)</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script>
+    function dis(n){
+        let label = document.querySelectorAll('.side-bar div');
+        let sections = document.querySelectorAll('.main-bar div');
+        for(let i=0;i<label.length;i++){
+            label[i].classList.remove("highlite");
+            sections[i].style.display = "none";
+        }
+        label[n].classList.add("highlite");
+        sections[n].style.display = "block";
+    }
+    dis(0);
+</script>
+<script src="profile.js"></script>
+</html>

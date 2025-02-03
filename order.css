@@ -1,0 +1,78 @@
+.main{
+    display: flex;
+}
+.sidebar{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.sidebar a {
+    font-size: 28px;
+    text-decoration: none;
+    font-family: "montserrat";
+    color: white;
+    letter-spacing: 5px;
+    margin: 5px 0;
+}
+.highlite{
+    font-weight: 700;
+    font-size: 32px !important;
+    letter-spacing: 15px !important;
+}
+.mainbar{
+    padding: 10px;
+}
+.heding{
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+.back{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-family: "Kanit", serif;
+    letter-spacing: 2px;
+    box-shadow: inset 0px 0px 10px white;
+}
+.heading{
+    font-size: 30px;
+    margin-top: 20PX;
+    font-family: "montserrat";
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.bg{
+    transform: rotate(-32deg) translate(43px,-220px);
+    height: 50px;
+    width: 400px;
+    background-color: #1B1B1B;
+}
+.cap{
+    width: 240px;
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.542);
+    margin: 8px 5px 8px 15px;
+}
+.price{
+    margin: 0px 5px 0 15px;
+    display: flex;
+    align-items: center;
+}
+.price i,.price p{
+    margin: 0 2px;
+}
+.cart{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-family: "Kanit", serif;
+    letter-spacing: 2px;
+    margin: 0 8px 0 0;
+}

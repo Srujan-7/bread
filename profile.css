@@ -1,0 +1,96 @@
+.container{
+    height: 100svh;
+    width: 100svw; 
+    display: flex;
+}
+body{
+    overflow: hidden;
+}
+h2{
+    font-family: "Montserrat";
+}
+.side-bar{
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.highlite{
+    font-weight: 700;
+    font-size: 32px !important;
+    letter-spacing: 5px !important;
+}
+.main-bar{
+    width: 100%;
+}
+.side-heading:hover{
+    cursor: pointer;
+}
+.side-bar div{
+    font-size: 28px;
+    text-decoration: none;
+    font-family: "montserrat";
+    color: white;
+    letter-spacing: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+/* Profile Form Styling */
+#profile-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background: #1a1a1a; /* Dark background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.2);
+}
+
+/* Labels */
+#profile-form label {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: green; /* Green text */
+}
+
+/* Input and Textarea Fields */
+#profile-form input, 
+#profile-form textarea {
+    background-color: #262626; /* Darker input background */
+    color: #ffffff; /* White text */
+    border: 1px solid #008000; /* Green border */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+a{
+    color: #008000;
+}
+
+/* Focus Effect */
+#profile-form input:focus, 
+#profile-form textarea:focus {
+    border-color: green; /* Bright green focus effect */
+    outline: none;
+    box-shadow: 0px 0px 5px green;
+}
+
+/* Submit Button */
+#profile-form button {
+    background-color: #00cc00; /* Green button */
+    color: #121212; /* Dark text */
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#profile-form button:hover {
+    background-color: #009900; /* Darker green hover */
+    box-shadow: 0px 0px 10px green;
+}

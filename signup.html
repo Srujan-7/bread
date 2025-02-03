@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREAD - SIGNUP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login">
+        <div class="logo">
+            <h1>BREAD</h1>
+        </div>
+        <form method="get">
+            <div class="box">
+                <p>USERNAME</p>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="box">
+                <p>PASSWORD</p>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="box">
+                <p>RE-ENTER PASSWORD</p>
+                <input type="password" id="repassword" name="repassword" required>
+            </div>
+            <div style="display: flex; justify-content: center; margin: 40px 0px 0px 0px; "><p>Already a user? <a href="login.html">Log in</a> </P></div>
+            <div class="submit"><input type="submit" value="submit" class="submit" onclick="addData(event)"></div>
+        </form>
+    </div>
+</body>
+<script>
+    let submit = document.querySelector('.submit');
+    function addData(e){
+        e.preventDefault();
+        let usern = document.querySelector("#username");
+        let pass = document.querySelector("#password");
+        let repass = document.querySelector("#repassword");
+        let username = usern.value;
+        let password = pass.value;
+        let repassword = repass.value;
+        if(username!="" && password!="" && repassword!=""){
+            if(password == repassword){
+                let flag = true;
+                let arr = [username, password];
+                let data = JSON.parse(window.localStorage.getItem('user')) || [];
+                console.log(data);
+                if(data.length != 0){
+                    for(let user of data){
+                        if(user[0] == arr[0]){
+                            alert("Username Already Exists");
+                            usern.value = "";
+                            flag = false;
+                        }
+                    }
+                }
+                if(flag){
+                    data.push(arr);
+                    window.localStorage.setItem('user',JSON.stringify(data));
+                    window.localStorage.setItem('isAuth',true);
+                    window.location.href = "menu.html";
+                }
+            }
+            else{
+                alert("Password and Re-Password must be same");
+                pass.value = "";
+                repass.value = "";
+            }
+        }
+        else{
+            alert("All Fields Required");
+        }
+    }
+</script>
+</html>
