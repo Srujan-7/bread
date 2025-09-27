@@ -1,4 +1,58 @@
 {
+    "cookies": {
+        "soft": [
+            {
+                "name": "Chewy Chocolate Chip Cookie",
+                "cap": "Soft and warm with melty chocolate chips in every bite.",
+                "price": 2.50,
+                "image": "cs1.png"
+            },
+            {
+                "name": "Peanut Butter Soft Cookie",
+                "cap": "A smooth, buttery treat for peanut butter lovers.",
+                "price": 3,
+                "image": "cs2.png"
+            },
+            {
+                "name": "Oatmeal Raisin Soft Cookie",
+                "cap": "Heartwarming oats and sweet raisins in a delightful cookie.",
+                "price": 2.75,
+                "image": "cs3.png"
+            },
+            {
+                "name": "Red Velvet Soft Cookie",
+                "cap": "Velvety soft with hints of cocoa and a cream cheese drizzle.",
+                "price": 3.50,
+                "image": "cs4.png"
+            }
+        ],
+        "crunchy": [
+            {
+                "name": "Classic Butter Cookie",
+                "cap": "Crunchy, golden, and melt-in-your-mouth goodness.",
+                "price": 2,
+                "image": "cy1.png"
+            },
+            {
+                "name": "Almond Biscotti",
+                "cap": "Crunchy perfection with toasted almond goodness in every bite.",
+                "price": 4,
+                "image": "cy2.png"
+            },
+            {
+                "name": "Choco Crunch Cookie",
+                "cap": "A crispy, chocolate lover's dream come true.",
+                "price": 3,
+                "image": "cy3.png"
+            },
+            {
+                "name": "Coconut Delight Cookie",
+                "cap": "A tropical, crispy cookie for coconut enthusiasts.",
+                "price": 3.50,
+                "image": "cy4.png"
+            }
+        ]
+    },
     "cakes": {
         "vanilla": [
             {
@@ -104,60 +158,6 @@
                 "cap": "Salty, sweet, and irresistibly creamy—a perfect treat.",
                 "price": 5,
                 "image": "di4.png"
-            }
-        ]
-    },
-    "cookies": {
-        "soft": [
-            {
-                "name": "Chewy Chocolate Chip Cookie",
-                "cap": "Soft and warm with melty chocolate chips in every bite.",
-                "price": 2.50,
-                "image": "cs1.png"
-            },
-            {
-                "name": "Peanut Butter Soft Cookie",
-                "cap": "A smooth, buttery treat for peanut butter lovers.",
-                "price": 3,
-                "image": "cs2.png"
-            },
-            {
-                "name": "Oatmeal Raisin Soft Cookie",
-                "cap": "Heartwarming oats and sweet raisins in a delightful cookie.",
-                "price": 2.75,
-                "image": "cs3.png"
-            },
-            {
-                "name": "Red Velvet Soft Cookie",
-                "cap": "Velvety soft with hints of cocoa and a cream cheese drizzle.",
-                "price": 3.50,
-                "image": "cs4.png"
-            }
-        ],
-        "crunchy": [
-            {
-                "name": "Classic Butter Cookie",
-                "cap": "Crunchy, golden, and melt-in-your-mouth goodness.",
-                "price": 2,
-                "image": "cy1.png"
-            },
-            {
-                "name": "Almond Biscotti",
-                "cap": "Crunchy perfection with toasted almond goodness in every bite.",
-                "price": 4,
-                "image": "cy2.png"
-            },
-            {
-                "name": "Choco Crunch Cookie",
-                "cap": "A crispy, chocolate lover's dream come true.",
-                "price": 3,
-                "image": "cy3.png"
-            },
-            {
-                "name": "Coconut Delight Cookie",
-                "cap": "A tropical, crispy cookie for coconut enthusiasts.",
-                "price": 3.50,
-                "image": "cy4.png"
             }
         ]
     },

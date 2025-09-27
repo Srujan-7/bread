@@ -11,6 +11,9 @@
     opacity: 0;
     transform: translateY(-20px);
 }
+.search i{
+    cursor: pointer ;
+}
 .hero p{
     margin: 0;
     font-size: 300px;

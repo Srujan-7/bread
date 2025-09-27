@@ -39,7 +39,6 @@
         let username = usern.value;
         let password = pass.value;
         if(username!="" && password!=""){
-            console.log("hi");
             let data = JSON.parse(window.localStorage.getItem('user')) || [];
             console.log(data);
             if(data.length != 0){

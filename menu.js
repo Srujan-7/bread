@@ -5,7 +5,7 @@ function createComponent(data,sectn,catg,ind){
     let imgdiv = document.createElement('div');
     imgdiv.classList.add("imagea");
     let image = document.createElement('img');
-    image.src = "images/" + component.image;
+    image.src = component.image;
     image.alt = "image";
     imgdiv.appendChild(image);
     compdiv.appendChild(imgdiv);
@@ -72,7 +72,7 @@ function opn(data,section,catg,comp){
     let cap = document.querySelector(".orderbox .cap");
     cap.innerHTML = component.cap;
     let image = document.querySelector(".orderbox .image img");
-    image.src = "images/"+component.image;
+    image.src = component.image;
 
     // add to cart
     let arr = [section,catg,comp];
@@ -176,7 +176,8 @@ document.addEventListener('DOMContentLoaded',() => {
             dis = "flex";
         }
         let ordr = document.querySelector('.orderpage');
-        let empty = document.querySelector('.empty');
+        let empty ;
+        if(page=="cart") empty= document.querySelector('.empty');
         let search = document.querySelector('.search input');
         let searchdiv = document.querySelector(".searchdiv");
         search.addEventListener('input',()=>{
@@ -186,6 +187,7 @@ document.addEventListener('DOMContentLoaded',() => {
                 searchdiv.innerHTML = '';
                 searchdiv.style.display = "grid";
                 main.style.display = "none";
+                if(page=="cart") 
                 empty.style.display = "none";
                 ordr.style.display = "none";
                 for(let sect in data){

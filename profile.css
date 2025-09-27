@@ -94,3 +94,9 @@ a{
     background-color: #009900; /* Darker green hover */
     box-shadow: 0px 0px 10px green;
 }
+li,p{
+    font-family: sans-serif;
+}
+li{
+    line-height: 25px;
+}
