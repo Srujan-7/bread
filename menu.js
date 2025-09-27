@@ -5,7 +5,7 @@ function createComponent(data,sectn,catg,ind){
     let imgdiv = document.createElement('div');
     imgdiv.classList.add("imagea");
     let image = document.createElement('img');
-    image.src = component.image;
+    image.src = `images/${component.image}`;
     image.alt = "image";
     imgdiv.appendChild(image);
     compdiv.appendChild(imgdiv);
