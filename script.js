@@ -3,7 +3,7 @@ const heroSub = document.querySelector('.hero span')
 const heroImage = document.querySelector('.hero img');
 const texts = ['SWEEET', 'BIGGGER!', 'PIZZZA!']; 
 const subs = ['NEW FRUTO CAKE', 'NEW BIG BURGER', 'ITALIAN PIZZAS']
-const images = ['images/sweet.png', 'images/burger.png', 'images/pizza.png']; 
+const images = ['images/sweet.png', 'images/Burger.png', 'images/pizza.png']; 
 let currentIndex = 0;
 
 let isAuth = window.localStorage.getItem('isAuth') || false;
