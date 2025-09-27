@@ -72,7 +72,7 @@ function opn(data,section,catg,comp){
     let cap = document.querySelector(".orderbox .cap");
     cap.innerHTML = component.cap;
     let image = document.querySelector(".orderbox .image img");
-    image.src = component.image;
+    image.src = `images/${component.image}`;
 
     // add to cart
     let arr = [section,catg,comp];
